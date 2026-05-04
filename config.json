@@ -50,24 +50,24 @@
   "colors": {
     "background": "#0C0623",
     "foreground": "#F8DDE5",
-    "banner": "#FF9951",
+    "banner": "#ffb000",
     "border": {
       "visible": true,
-      "color": "#FFADE2"
+      "color": "#ffb000"
     },
     "prompt": {
-      "default": "#A5A7A7",
-      "user": "#FE6BC9",
-      "host": "#70FDFF",
-      "input": "#FF7685"
+      "default": "#ffb000",
+      "user": "#ffcc66",
+      "host": "#ffb000",
+      "input": "#ffcc66"
     },
     "link": {
-      "text": "#B6AAEE",
-      "highlightColor": "#FFADE2",
-      "highlightText": "#0C0623"
+      "text": "#ffcc66",
+      "highlightColor": "#ffb000",
+      "highlightText": "#0b0a05"
     },
     "commands": {
-      "textColor": "#FD9BDB"
+      "textColor": "#ffcc66"
     }
   }
 }

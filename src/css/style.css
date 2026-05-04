@@ -3,12 +3,15 @@
 :root {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 200;
-  --bg: #0C0623;
-  --border: #FFADE2;
-  --text: #F8DDE5;
-  --prompt-default: #A5A7A7;
-  --prompt-1: #FE6BC9;
-  --prompt-2: #70FDFF;
+
+  /* WYSE AMBER TERMINAL PALETTE */
+  --bg: #0b0a05;
+  --border: #ffb000;
+  --text: #ffcc66;
+
+  --prompt-default: #ffb000;
+  --prompt-1: #ffb000;
+  --prompt-2: #ffcc66;
 }
 
 @keyframes typing {
@@ -76,7 +79,7 @@ pre {
   margin: 0;
   padding: 0;
   line-height: 20px !important;
-  color: #FF9951;
+  color: #ffb000;
   font-family: "ascii", monospace;
 }
 
@@ -88,18 +91,18 @@ input {
   resize: none;
   outline: none;
   font-size: 16px;
-  color: #FF7685;
-  caret-color: var(--prompt-default);
+  color: #ffcc66;
+  caret-color: #ffb000;
   width: 50%;
 }
 
 a {
-  color: #B6AAEE;
+  color: #ffcc66;
 }
 
 a:hover {
-  background-color: var(--border);
-  color: var(--bg);
+  background-color: #ffb000;
+  color: #0b0a05;
 }
 
 #bars {
@@ -114,8 +117,8 @@ a:hover {
 
 #bar-1 {
   height: 36px;
-  background-color: var(--border);
-  color: var(--bg);
+  background-color: #ffb000;
+  color: #0b0a05;
   line-height: 36px;
   padding-left: 10px;
 }
@@ -138,7 +141,6 @@ a:hover {
   margin-top: 0px;
 }
 
-
 #bar-5 {
   height: 0px;
   background-color: var(--border);
@@ -157,9 +159,9 @@ a:hover {
 
 .command {
   text-shadow:
-    0 0 7px #fff,
-    0 0 151px var(--border);
-  color: #FD9BDB;
+    0 0 6px #ffb000,
+    0 0 18px #ffb000;
+  color: #ffcc66;
 }
 
 .output {
@@ -167,7 +169,7 @@ a:hover {
 }
 
 .keys {
-  color: #FF9951;
+  color: #ffb000;
   font-weight: 400;
 }
 
