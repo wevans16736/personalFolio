@@ -23,27 +23,33 @@
     "         ~~                                            \\/____/                                                   ",
     "                                                                                                                 "
   ],
-  "title": "Wyatt Evans",
-  "username": "visitor",
+  "title": "Wyatt Evans Portfolio",
+  "username": "guest",
   "hostname": "evansfolio",
-  "password": "themagicword",
-  "repoLink": "https://github.com/nasan016/webshell",
+  "password": "050823",
+  "repoLink": "https://github.com/wevans16736/personalFolio",
   "social": {
     "email": "evanswp4s@gmail.com",
-    "github": "https://github.com/wevans16736",
-    "linkedin": "https://www.linkedin.com/in/wyatt-a-evans/"
+    "github": "wevans16736",
+    "linkedin": "wyatt-a-evans"
   },
-  "aboutGreeting": "Hi stranger. Welcome to Wyatt Evans's portfolio!",
+  "aboutGreeting": [
+    "Hello! Welcome to Wyatt Evans' portfolio!",
+    "",
+    "I'm a student at Iowa State University studying Computer Engineering, expected to graduate in May of 2029.",
+    "",
+    "Throughout my life, I've always been interested in engineering. Throughout middle and high school, I participated in FIRST Tech Challenge and FIRST Robotics competition, where I gained important leadership and communication skills as part of my role of Engineering Team Lead on my FIRST Tech Challenge team. This experience allowed me to explore my interest in control theory and computer algorithms, such as TensorFlow and OpenCV."
+  ],
   "projects": [
     [
-      "FIRST Tech Challenge",
-      "Codebase for Wyatt's team's 2024-25 FTC season.",
-      "https://github.com/wevans16736/IntoTheDeep16736"
+      "GofeR",
+      "Vue.js reactivity in Go.",
+      "https://github.com/nasan016/gofer"
     ],
     [
-      "Weather Command",
-      "Terminal based weather command using cURL and JSON parsing.",
-      "https://www.google.com/"
+      "WebShell",
+      "Terminal styled website.",
+      "https://github.com/nasan016/webshell"
     ]
   ],
   "colors": {
