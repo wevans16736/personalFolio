@@ -1,27 +1,30 @@
-import command from '../../config.json' assert {type: 'json'};
+import command from '../../config.json' assert { type: 'json' };
 
-const createProject = () : string[] => {
-  let string = "";
-  const projects : string[] = [];
+const createProject = (): string[] => {
+  const projects: string[] = [];
   const files = `${command.projects.length} File(s)`;
-  const SPACE = "&nbsp;";
 
-  projects.push("<br>")
+  projects.push("<br>");
 
   command.projects.forEach((ele) => {
-    let link = `<a href="${ele[2]}" target="_blank">${ele[0]}</a>`
-    string += SPACE.repeat(2);
-    string += link;
-    string += SPACE.repeat(17 - ele[0].length);
-    string += ele[1];
-    projects.push(string);
-    string = '';
+    const title = ele[0];
+    const desc = ele[1];
+    const url = ele[2];
+
+    projects.push(`
+      <div style="display: flex; gap: 16px; align-items: baseline;">
+        <a href="${url}" target="_blank">${title}</a>
+        <span>${desc}</span>
+      </div>
+    `.trim());
   });
 
   projects.push("<br>");
   projects.push(files);
   projects.push("<br>");
-  return projects
-}
+  projects.push(`This list is <span class='command'>incomplete.</span> You can help by <span class='command'>expanding it.</span>`)
 
-export const PROJECTS = createProject()
+  return projects;
+};
+
+export const PROJECTS = createProject();
