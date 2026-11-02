@@ -22,6 +22,10 @@ const helpObj = {
     [
       "'clear'",
       "Clear the terminal."
+    ],
+    [
+      "'coursework'",
+      "View Wyatt Evans' coursework"
     ]
   ],
 }

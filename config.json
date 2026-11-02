@@ -47,6 +47,23 @@
       "https://github.com/wevans16736/IntoTheDeep16736"
     ]
   ],
+  "coursework": [
+    [
+      "Electrical Engineering 2010 GitHub",
+      "GitHub repository for my EE2010 coursework from fall 2026",
+      "placeholder"
+    ],
+    [
+      "Computer Engineering 2810 GitHub",
+      "GitHub repository for CPRE2810 coursework and verilog files from labs",
+      "Placeholder"
+    ],
+    [
+      "Computer Science 2280 GitHub",
+      "GitHub repository for ComS2280 coursework from fall 2026",
+      "Placeholder"
+    ]
+  ],
   "colors": {
     "background": "#0C0623",
     "foreground": "#F8DDE5",
